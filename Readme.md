@@ -15,7 +15,7 @@ Obsidian offers a community plugin that allows users to easily paste images into
 - Image links remain valid when publishing notes online.  
 - Imgur has historically offered free, private image hosting.  
 
-However, in **January 2025**, I encountered a critical issue—losing access to my Imgur account. Since deleted images on Imgur are not immediately removed, I quickly wrote scripts to **scrape, rename, compare, download, and replace** all Imgur-hosted images in my vault.  
+However, in **January 2025**, I encountered a critical issue—losing access to my Imgur account. Upon researching online, I found that other users have randomly gotten their Imgur accounts deleted or bugged for no reason. Therefore, I decided to swore off imgur and stick to only local attachments. Since deleted images on Imgur are not immediately removed, I quickly wrote scripts to **scrape, rename, compare, download, and replace** all Imgur-hosted images in my vault.  
 
 This repository contains the scripts I used, rewritten from scratch and introduced into git history in the order they were used. This makes it easier to follow the workflow for anyone facing a similar issue.  
 

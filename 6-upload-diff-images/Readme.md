@@ -1,4 +1,4 @@
-# 5-dl-imgur
+# 6-upload-diff-images
 
 This script will upload pictures into your private server via SFTP protocol. It will be lean by getting a `ls` of all the files on your FTP, then find which files are missing in your Obsidian Document Vault's designated Attachment folder, and only upload those.
 

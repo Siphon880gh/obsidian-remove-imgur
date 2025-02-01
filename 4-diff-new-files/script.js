@@ -1,12 +1,6 @@
 const fs = require('fs');
 const {aFilename, bFilename, oFilename, flagNewLinesFrom} = require('./config.json');
 
-// flagNewLinesFrom variable determines the type of comparison:
-// 0 - Find lines that are unique to each file (symmetric difference)
-// 1 - Find lines that are in a.txt but not in b.txt
-// 2 - Find lines that are in b.txt but not in a.txt
-const flagNewLinesFrom = 2;
-
 // Function to compare files based on the flagNewLinesFrom setting
 async function compareFiles() {
     try {
