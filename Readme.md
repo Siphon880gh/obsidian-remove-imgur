@@ -23,6 +23,7 @@ This repository contains the scripts I used, rewritten from scratch and introduc
 
 ### **1. Rename Exported Imgur Files**  
 - Script: `1-rename-imgur-exports`  
+- Config.json: The folder where your imgur exported png/jpg's are at.
 - SKIP this step if you had never exported from imgur.
 - If you had previously exported images from Imgur, they will have filenames prefixed with numbers (e.g., `"1 - hashed.png"`, `"2 - hashed.png"`).  
 - This script renames all files to their original hash-based names (e.g., `"hashed.png"`) for consistency.  
