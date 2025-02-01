@@ -1,0 +1,6 @@
+{
+    "aFilename": "sources/a.txt",
+    "bFilename": "sources/b.txt",
+    "oFilename": "results.txt",
+    "flagNewLinesFrom": 2
+}

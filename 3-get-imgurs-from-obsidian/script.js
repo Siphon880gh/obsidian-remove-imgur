@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const config = require('./config.sample.json');
+const config = require('./config.json');
 
 // Array of regex patterns to match
 const regexArr = [
@@ -64,5 +64,5 @@ if (config.outputFile) {
     fs.writeFileSync(config.outputFile, '');
 }
 
-// writeOutput('Starting search for Imgur links...');
+// Begin recursively walking through the directory
 walkDirectory(config.startDir); 
