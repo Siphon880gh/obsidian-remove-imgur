@@ -21,13 +21,13 @@ This repository contains the scripts I used, rewritten from scratch and introduc
 
 ### **1. Rename Exported Imgur Files**  
 - Script: `1-rename-imgur-exports`  
-- SKIP this step if you had never exprted from imgur.
+- SKIP this step if you had never exported from imgur.
 - If you had previously exported images from Imgur, they will have filenames prefixed with numbers (e.g., `"1 - hashed.png"`, `"2 - hashed.png"`).  
 - This script renames all files to their original hash-based names (e.g., `"hashed.png"`) for consistency.  
 
 ### **2. Generate File List of Exported Images**  
 - Script: `2-ls-into-list`  
-- SKIP this step if you had never exprted from imgur.
+- SKIP this step if you had never exported from imgur.
 - Creates a list of filenames from the exported images.  
 
 ### **3. Extract Imgur References from Obsidian Vault**  
@@ -36,7 +36,7 @@ This repository contains the scripts I used, rewritten from scratch and introduc
 
 ### **4. Identify Newer Images Not in Exported Backup**  
 - Script: `4-diff-new-files`  
-- SKIP this step if you had never exprted from imgur.
+- SKIP this step if you had never exported from imgur.
 - Compares the exported Imgur file list (Step 2) with the list of images currently referenced in Obsidian (Step 3).  
 - Generates a list of **missing** images that must be scraped from Imgur.  
 
